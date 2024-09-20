@@ -8,6 +8,7 @@ body {
     justify-content: center;
     height: 100vh;
     background-color: #000000;
+    
 }
 
 h1 {
@@ -101,6 +102,16 @@ input[type="checkbox"] {
 .erro {
     color: red;
     font-weight: bold;
+}
+
+footer {
+    background-color: #222222;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
 }
 
 @media (max-width: 600px) {
