@@ -1,3 +1,9 @@
+document.getElementById("entrada").addEventListener("keydown", function(event) {
+    if (event.key === "Enter") {
+        mostrar();
+    }
+});
+
 function mostrar() {
     let input = document.getElementById("entrada").value.trim();
     let erroContainer = document.getElementById("erro-container");
@@ -50,5 +56,5 @@ function mostrar() {
     div.append(tarefaContainer, butao);
     document.getElementById("lista2").append(div);
 
-    document.getElementById("entrada").value = ""; // Limpa o campo de entrada após adicionar
+    document.getElementById("entrada").value = "";
 }
